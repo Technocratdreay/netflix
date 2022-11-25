@@ -1,0 +1,302 @@
+*{
+    color: #FFFFFF;
+}
+.view{
+    background-color:#000;
+}
+.flex_container{
+    /* width: 100vw; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+header{
+    background: rgba(0, 0, 0, 0.7) url(https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/fe0d3631-4584-47e4-9cd7-ed68ba375830/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-blend-mode: overlay;
+}
+.button{
+    background-color: #e50914;
+    padding: 7px 17px;
+    float: right;
+   line-height: normal;
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.unlimited{
+    width: 100%;
+    /* max-width: 655px; */
+    margin: 0 auto;
+    padding: 75px 0;
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+    border-bottom: 8px solid #222;
+    align-items: center;
+}
+
+.email_input{
+    align-items: center;
+    appearance: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    /* box-sizing: border-box; */
+    color: #000;
+    /* max-width: 85%; */
+    /* width: 100%; */
+    width: 400px;
+    padding: 10px;
+    /* right: 150px; */
+    
+}
+
+.email{
+    display:inline-flex;
+    padding-left: 10px;
+    width: 100%;
+    max-width: 65%;
+    /* margin-left: 60px; */
+    align-items: center;
+    /* margin-right: 500px; */
+    position: absolute;
+    /* justify-content: space-between; */
+    right: 30px;
+}
+
+.started{
+    background-color: #e50914;
+    padding: 10px;
+    width: 120px;
+}
+/* input {
+    line-height: normal;
+} */
+
+.smart{
+    background: transparent;
+    border-bottom: 8px solid #222;
+    margin-bottom: 0;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.enjoy{
+    align-items: center;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.video_tv{
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+video{
+    object-fit: contain;
+    position: absolute;
+    left: 95px;
+    top: 99px;
+    width: 450px;
+}
+
+.unlimited_tx1{
+    font-size: 55px;
+}
+
+.unlimited_tx2{
+    font-size: 35px;
+}
+
+.unlimited_tx3{
+    font-size: 20px;
+}
+.watch{
+    border-bottom: 8px solid #222;
+    text-align: start;
+    padding: 60px 100px;
+    line-height: 44px;
+    align-items: center;
+}
+
+.title{
+    font-size: 55px;
+    /* text-align: center; */
+}
+
+.subtitle{
+    font-size: 30px;
+    /* text-align: center; */
+}
+
+.strange{
+    border-bottom: 8px solid #222;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.download{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.our-story-card-animation{
+    position: absolute;
+    left: 98px;
+    border: 5px solid #222222;
+    background-color: #000;
+    border-radius: 10px;
+    width: 300px;
+    height: 80px;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.our-story-card-animation-image{
+left: 50px;
+padding: 10px;
+}
+
+.svg{
+  padding: 20px;
+}
+
+.text-1{
+    color:#0071EB ;
+}
+
+.text_download{
+text-align: left;
+padding: 20px;
+}
+
+.text_d1{
+    font-size: 55px;
+}
+
+.text_d2{
+    font-size: 30px;
+}
+
+.our-story-card-animation-text{
+    right: 20px;
+    text-align: center;
+    padding: 2px;
+}
+.kids{
+    border-bottom: 8px solid #222;
+    display: flex;
+    background: #000;
+    text-align: center;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.svg_2{
+    width: 20px;
+}
+
+.fav_kid{
+    text-align: start;
+    align-items: center;
+}
+
+.kid_1{
+    font-size: 55px;
+}
+
+.kid_2{
+    font-size: 35px;
+}
+
+.faq{
+    border-bottom: 8px solid #222;
+    text-align: center;
+    align-items: center;
+    height: 700px;
+    padding: 50px;
+}
+
+footer{
+    background: #000;
+    margin-top: 0px;
+    border-top: 4px solid #222;
+}
+
+
+
+.faq_1{
+    width: 500px;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 450px;
+    border: 2px solid #FFFFFF;
+    /* padding: 15px; */
+    background-color: #303030;
+}
+
+.flex_svg{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 5px;
+}
+
+summary {
+list-style: none;
+}
+/* summary::-webkit-details-marker { display: none ;} */
+
+/* details > summary {
+    padding: 2px 6px;
+    width: 15em;
+    background-color: #ddd;
+    align-items: center;
+    border: none;
+    box-shadow: 3px 3px 4px black;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  details > p {
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    
+    /* box-shadow: 3px 3px 4px black;
+  } */
+
+.grid{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap: 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+.foot a{
+    text-decoration: none;
+}
+
+.foot{
+    margin: 30px;
+    padding: 10px;
+}
